@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+
+#hero-image {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/assets/hero_image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+#hero-container {
+  height: fit-content;
+  width: 40%;
+}
+
+#hero-container>p {
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  text-align: center;
+}
+
+#horizontal-line {
+  padding-bottom: 20px;
+}
+
+#big {
+  font-size: 96px;
+}
+
+#small {
+  font-size: 48px;
+}
+
+#partner-photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+#photos-container {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 45%;
+}
+
+#photos-container>h1 {
+  font-weight: 400;
+  width: fit-content;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Great Vibes', cursive;
+}
+
+#photos-container>p {
+  font-family: 'Montserrat', sans-serif;
+  width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 36px;
+}
+
+#photos {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+#actual-photo-container {
+  width: 40%;
+}
+
+.actual-photo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+#location-container {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  width: 60%;
+}
+
+#location-container>h1 {
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+  font-family: 'Great Vibes', cursive;
+}
+
+#location-container>p {
+  font-weight: 400;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#actual-location-container {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#reception {
+  width: fit-content;
+  font-size: 24px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#reception>p {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+#vertical-line {
+  border-left: 2px solid black;
+  height: 100px;
+}
+
+#party {
+  width: fit-content;
+  font-size: 24px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#party>p {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+#date {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+#date>h1 {
+  padding: 10px 20px;
+  font-size: 36px;
+}
+
+#date>p {
+  margin: auto;
+}
+
+#partners-gallery {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 80%;
+  margin: 40px auto;
+}
+
+#partners-gallery-container {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#partners-gallery-container>h1 {
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-family: 'Great Vibes', cursive;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+#gallery-placeholder {
+  background-color: grey;
+  margin: 10px 20px;
+  width: 250px;
+  height: 500px;
+}
+
+#rsvp {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+}
+
+#rsvp>h1 {
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-family: 'Great Vibes', cursive;
+}
